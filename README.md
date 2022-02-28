@@ -1,8 +1,5 @@
-It would be helpful if you could document your project (through comments or README files) and explain some of the decisions/assumptions you have made. 
-Given the short time constraints, please also make notes of future steps you could take to make the application better.
+LOUISE SCHIBSTED CASE
 
-
-LOUISE HELLBERGS SCHIBSTED CASE
 I was choosing among some different structures, at first I thought I would use a MVC structure but then I decided not to since I was not expecting a large project 
 with many views. My first thought was also to use webpack etc but because of time limitation I chose not to since I had some pre knowledge of Vanilla javascript 
 without webpack. I did not program so that the game works on a phone. I chose to focus on the possibility to choose among three pictures, puzzle difficulty 
