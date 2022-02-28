@@ -1,7 +1,7 @@
 //Initializing global variables
 let CANVAS = null;
 let CXT = null;
-let SCALER = 0.6;
+let SCALER = 0.8;
 let SIZE = {x:0, y:0, width:0, height:0, rows:3, columns:3};
 let PUZZLE_IMAGE = new Image();
 let PIECES = [];
