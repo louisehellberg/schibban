@@ -1,0 +1,73 @@
+//$primary-color: #ffeb00;
+//$secondary-color: #dd2a30;
+
+body {
+    margin: 0px;
+    font-family: Helvetica;
+    overflow: hidden;
+  }
+
+.menu{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) ;
+    background: rgba(255,255,255,0.8);
+    text-align: center;
+    padding:5%;
+    border:3px rgba(0,0,0,0.8) solid;
+    font-size: x-large;
+}
+
+button{
+    font-size: x-large;
+    color: rgb(175, 97, 7);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    transition: all 0.3s ease-out;
+    border: 1px solid rgb(175, 97, 7);
+    cursor: pointer;  
+}
+
+button:hover{
+    background: rgb(175, 97, 7);
+    color:white;
+}
+
+select{
+    font-size: x-large;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+h1 {
+    top:0%;
+    color: rgb(175, 97, 7);
+    text-transform: uppercase;
+    text-shadow: -1px 0 black, -1px 0 black, 0 1px black, 1px 0 black,
+      0 -1px black, 1px 0px 0px black, 2px 1px 0px black,
+      3px 2px 0px black, 4px 3px 0px black, 5px 4px 0px black;
+    letter-spacing: 3px;
+    border-bottom: 5px solid black;
+  }
+
+  h2 {
+    top:0%;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 5px solid black;
+  }
+
+  img{
+      margin:10px;
+  }
+
+  #time{
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%) ;
+    font-size: xx-large;
+}
